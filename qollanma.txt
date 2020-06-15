@@ -1,4 +1,0 @@
-composer require spatie/laravel-query-builder
-php artisan vendor:publish --provider="Spatie\QueryBuilder\QueryBuilderServiceProvider" --tag="config"
-filter simple example
-http://parasol.local/api/users/search?age_more_than=25&gender=male&has_published_post=true
